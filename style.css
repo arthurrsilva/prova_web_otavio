@@ -1,0 +1,116 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* professor, utilizei um reset padrão para resetar as configs do meu codigo. (Arthur Ribeiro Silva) */
+
+nav {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: brown;
+    font-size: 22px;
+}
+
+.cabecalho__imagem {
+    width: 100%;
+}
+
+.apresentacao {
+    display: flex;
+}
+
+.apresentacao__conteudo {
+    background-color: bisque;
+    flex: 1;
+    padding: 10% 0% 10% 0%;
+}
+
+.apresentacao__conteudo__titulo {
+    margin: 0 10% 0 15%;
+    color: brown;
+    font-size: 63px;    
+}
+
+.apresentacao__conteudo__texto {
+    margin: 3% 10% 0 15%;
+    font-size: 28.5px;
+}
+
+.apresentacao__card {
+    flex: 1;
+    background-color: bisque;
+}
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px #ccc;
+    margin: 10% 8% 3% 10%;
+    width: 200px;
+    height: 250px;
+    display: inline-block;
+    vertical-align: text-bottom;
+    text-align: center;   
+}
+
+.card__image {
+    width: 200px;
+    height: 210px;
+}
+
+.card__texto {
+    height: 45px;
+    background-color: brown; 
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: 0;
+}
+
+footer {
+    height: 50px;
+    background-color: brown;
+}
