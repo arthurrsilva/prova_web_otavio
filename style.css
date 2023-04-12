@@ -51,6 +51,7 @@ nav {
     align-items: center;
     background-color: brown;
     font-size: 22px;
+    color: white;
 }
 
 .cabecalho {
@@ -107,7 +108,8 @@ nav {
 
 .card__texto {
     height: 45px;
-    background-color: brown; 
+    background-color: brown;
+    color: white; 
     display: flex;  
     align-items: center;
     justify-content: center;
